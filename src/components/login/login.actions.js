@@ -1,8 +1,8 @@
-// export const DELETE_LIST = 'DELETE_LIST'
-//
-// export function nameChange(listName){
-//   return{
-//     type: NAME_CHANGE,
-//     listName: listName
-//   }
-// }
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+
+export function loginSuccess(data){
+  return{
+    type: LOGIN_SUCCESS,
+    data: data
+  }
+}

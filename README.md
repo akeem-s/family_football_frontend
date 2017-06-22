@@ -1,3 +1,6 @@
+<!-- environment variable development link https://medium.com/@rafaelvidaurre/managing-environment-variables-in-node-js-2cb45a55195f -->
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
