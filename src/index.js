@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import './index.css';
+// Redux Dependencies
+import {Provider} from 'react-redux';
+import store from './store/store';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render(
+  <Provider store={store}>
+    <div>
+      <App/>
+    </div>
+  </Provider>, document.querySelector('#root'))
